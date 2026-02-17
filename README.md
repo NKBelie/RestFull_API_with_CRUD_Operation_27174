@@ -23,35 +23,42 @@ This project implements all four operations through REST API endpoints.
 ## Create New Product
 **Method:** `POST`  
 **URL:** `/api/products`
+
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/insert.png)
 ## Read/Select All Product
 **Method:** `GET`  
 **URL:** `/api/getProducts`
+
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/All%20Product.png)
 ## Read/Select By Id
 **Method:** `GET`  
 **URL:** `/api/getProductById/{id}`  
 **Example:** `/api/products/1002`
+
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/Product%20By%20Id.png)
 ## Search By Category
 **Method:** `GET`  
 **URL:** `/api/products/search?category={category}`  
 **Example:** `/api/products/search?category=Electronics`
+
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/Search%20By%20Category.png)
 ## Search By Brand And Price
 **Method:** `GET`  
 **URL:** `/api/products/searchByPriceAndBrand?price={price}&brand={brand}`  
 **Example:** `/api/products/searchByPriceAndBrand?price=89.99&brand=TechSound`
+
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/Search%20By%20Brand%20and%20Price.png)
 ## Update Product
 **Method:** `PUT`  
 **URL:** `/api/updateProduct/{id}`  
 **Example:** `/api/updateProduct/1002`
+
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/Update.png)
 ## Delete Product
 **Method:** `DELETE`  
 **URL:** `/api//deleteProduct/{id}`  
 **Example:** `/api//deleteProduct/1001`
+
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/Delete.png)
 
 ##  Test with Postman
