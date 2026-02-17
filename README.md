@@ -26,11 +26,11 @@ This project implements all four operations through REST API endpoints.
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/insert.png)
 ## Read/Select All Product
 **Method:** `GET`  
-**URL:** `/api/products`
+**URL:** `/api/getProducts`
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/All%20Product.png)
 ## Read/Select By Id
 **Method:** `GET`  
-**URL:** `/api/products/{id}`  
+**URL:** `/api/getProductById/{id}`  
 **Example:** `/api/products/1002`
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/Product%20By%20Id.png)
 ## Search By Category
@@ -45,13 +45,13 @@ This project implements all four operations through REST API endpoints.
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/Search%20By%20Brand%20and%20Price.png)
 ## Update Product
 **Method:** `PUT`  
-**URL:** `/api/products/{id}`  
-**Example:** `/api/products/1001`
+**URL:** `/api/updateProduct/{id}`  
+**Example:** `/api/updateProduct/1002`
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/Update.png)
 ## Delete Product
 **Method:** `DELETE`  
-**URL:** `/api/products/{id}`  
-**Example:** `/api/products/1001`
+**URL:** `/api//deleteProduct/{id}`  
+**Example:** `/api//deleteProduct/1001`
 ![](https://github.com/NKBelie/RestFull_API_with_CRUD_Operation_27174/blob/main/Screenshot/Delete.png)
 
 ##  Test with Postman
